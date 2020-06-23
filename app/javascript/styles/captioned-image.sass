@@ -1,0 +1,26 @@
+.captioned-image
+  width: 33%
+  padding: 10px
+
+  .captioned-image-wrapper
+    position: relative
+
+    img
+      width: 100%
+
+    .caption
+      padding: 5px
+      color: white
+      background-color: $black
+      display: flex
+      justify-content: space-between
+      transition: max-height .2s linear, padding .2s linear
+      max-height: 40px
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+
+      &.collapsed
+        max-height: 0
+        padding: 0

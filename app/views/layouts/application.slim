@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Knighton Architecture
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_pack_tag 'application', media: :all
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+    link rel="stylesheet" href="https://use.typekit.net/yxd3oul.css"
+  body
+    = render 'navigation'
+    = yield

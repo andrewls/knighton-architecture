@@ -1,0 +1,32 @@
+.connect.container
+  .row
+    .col-12
+      p If you would like to connect with us to discuss a future project or to learn more about the work we do, please fill out your info in the form below and we will reach out and set up a time to meet up.
+  .row
+    .col-md-5
+      form
+        label Name *
+        br
+        .form-half-width.left
+          input#first_name type="text" name='first_name' class='form-control'
+          label for='first_name' First Name
+        .form-half-width.right
+          input#last_name type="text" name='last_name' class='form-control'
+          label for='last_name' Last Name
+        br
+        label for='email' Email Address *
+        input#email type='email' name='email' class='form-control'
+        label for='subject' Subject *
+        input#subject type='text' name='subject' class='form-control'
+        label for='message' Message *
+        textarea#message name='message' class='form-control'
+        br
+        button type='submit' class='btn btn-black btn-square' Submit
+        p 30 S SLEEPY RIDGE DR #300
+        p OREM UT 84058
+        p
+        p info@knightonarchitecture.com
+        p
+        p (801) 820-4460
+    .col-md-7
+      #map style='height: 600px'
