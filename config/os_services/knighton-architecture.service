@@ -1,0 +1,21 @@
+[Unit]
+Description=Knighton Architecture Web Server (Puma)
+After=network.target
+Requires=knighton-architecture.socket
+
+[Service]
+Type=simple
+WorkingDirectory=/home/deploy/knighton-architecture/current
+
+# Helpful for debugging socket activation, etc.
+Environment=PUMA_DEBUG=1
+Environment=RACK_ENV=production
+Environment=RAILS_ENV=production
+Environment=RBENV_VERSION=2.6.5
+Environment=MALLOC_ARENA_MAX=2
+
+ExecStart=/home/deploy/.rbenv/bin/rbenv exec bundle exec puma -C /home/deploy/knighton-architecture/current/config/puma.rb
+Restart=always
+
+[Install]
+WantedBy=default.target

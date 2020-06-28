@@ -1,9 +1,7 @@
 import registerPageLoadHandler from 'utilities/register-page-load-handler';
 
-console.log("In load maps");
-
 let script = document.createElement('script');
-script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAvmtYd34lXs8YDFo9USzU69DF05FrzPA4&callback=initMap';
+script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&callback=initMap`;
 script.defer = true;
 script.async = true;
 

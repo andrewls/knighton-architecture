@@ -1,0 +1,13 @@
+[Unit]
+Description=Knighton Architecture Puma HTTP Server Accept Sockets
+
+[Socket]
+# AF_UNIX domain socket
+# SocketUser, SocketGroup, etc. may be needed for Unix domain sockets
+ListenStream=/home/deploy/knighton-architecture/shared/tmp/sockets/knighton-architecture.sock
+
+# Socket options matching Puma defaults
+Backlog=1024
+
+[Install]
+WantedBy=sockets.target

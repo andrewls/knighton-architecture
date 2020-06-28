@@ -21,29 +21,29 @@ namespace :puma do
   desc 'Enables the service to run at startup'
   task(:enable) do
     on roles(:app) do
-      execute 'systemctl --user enable aliwoodcreations'
+      execute 'systemctl --user enable knighton-architecture'
     end
   end
 
   desc 'Copies the current service file definitions to the services folder'
   task(:link) do
     on roles(:app) do
-      execute "cp -f #{current_path}/config/os_services/aliwoodcreations.service /home/deploy/.config/systemd/user/aliwoodcreations.service"
-      execute "cp -f #{current_path}/config/os_services/aliwoodcreations.socket /home/deploy/.config/systemd/user/aliwoodcreations.socket"
+      execute "cp -f #{current_path}/config/os_services/knighton-architecture.service /home/deploy/.config/systemd/user/knighton-architecture.service"
+      execute "cp -f #{current_path}/config/os_services/knighton-architecture.socket /home/deploy/.config/systemd/user/knighton-architecture.socket"
     end
   end
 
   desc 'Starts the puma service'
   task(:start) do
     on roles(:app) do
-      execute 'systemctl --user start aliwoodcreations'
+      execute 'systemctl --user start knighton-architecture'
     end
   end
 
   desc 'Stops the puma service'
   task(:stop) do
     on roles(:app) do
-      execute 'systemctl --user stop aliwoodcreations'
+      execute 'systemctl --user stop knighton-architecture'
     end
   end
 

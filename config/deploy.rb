@@ -19,7 +19,7 @@ set :rbenv_ruby, '2.7.1'
 
 # rails settings
 set :rails_env, :production
-set :linked_files,    %w[config/application.yml config/database.yml]
+set :linked_files,    %w[config/.env config/database.yml]
 set :linked_dirs,     %w[log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads public/packs]
 
 # Sidekiq settings
