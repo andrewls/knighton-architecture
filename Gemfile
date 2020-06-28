@@ -10,8 +10,7 @@ gem 'rails', '~> 6.0.3'
 gem 'rubocop'
 gem 'rubocop-rails', require: false
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
-# Use Puma as the app server
+ # Use Puma as the app server
 gem 'puma', '~> 4.1'
 gem 'pg'
 
