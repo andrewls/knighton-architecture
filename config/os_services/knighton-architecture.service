@@ -11,7 +11,7 @@ WorkingDirectory=/home/deploy/knighton-architecture/current
 Environment=PUMA_DEBUG=1
 Environment=RACK_ENV=production
 Environment=RAILS_ENV=production
-Environment=RBENV_VERSION=2.6.5
+Environment=RBENV_VERSION=2.7.1
 Environment=MALLOC_ARENA_MAX=2
 
 ExecStart=/home/deploy/.rbenv/bin/rbenv exec bundle exec puma -C /home/deploy/knighton-architecture/current/config/puma.rb

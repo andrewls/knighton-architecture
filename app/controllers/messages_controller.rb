@@ -2,8 +2,9 @@
 
 # This controller exists for handling messages and making sure they're sent.
 class MessagesController < ApplicationController
-  def send
+  def send_message
     MessagesMailer.connect(*message_params.values_at(:email, :first_name, :last_name, :subject, :message)).deliver_now
+    redirect_to root_path, notice: 'Your message has been sent!'
   end
 
   def message_params

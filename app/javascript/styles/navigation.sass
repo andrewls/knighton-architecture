@@ -1,3 +1,6 @@
+.nav-logo
+  max-width: 175px
+
 .navigation
   display: flex
   flex-direction: row
@@ -6,10 +9,31 @@
   align-items: center
   border-bottom: 5px solid $black
 
-  .nav-logo
-    max-width: 175px
+  .nav-links
+    .nav-link
+      display: inline-block
+      color: $black
+      &:active, &:hover, &.active
+        color: $active
+
+      &.connect
+        background-color: $black
+        color: $white
+        border-radius: 10px
+
+.nav-small
+  padding-top: 15px
+  width: 100%
+  text-align: center
+  border-bottom: 5px solid $black
 
   .nav-links
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    padding: 10px
+    align-items: center
+
     .nav-link
       display: inline-block
       color: $black

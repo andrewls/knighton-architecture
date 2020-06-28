@@ -30,14 +30,14 @@ namespace :deploy do
 
   task :copy_env do
     on roles(:app) do
-      execute 'cp -f config/.env .env'
+      execute "cp -f /home/deploy/knighton-architecture/shared/config/.env #{release_path}/.env"
     end
   end
 
   before :starting,     :check_revision
+  after :updating,      :copy_env
   after  :finishing,    :compile_assets
   after  :finishing,    :cleanup
-  after :finishing,     :copy_env
   after  :finishing,    :restart
 end
 # rubocop:enable Metrics/BlockLength

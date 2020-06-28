@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get 'team', to: 'pages#team'
   get 'projects', to: 'pages#projects'
   get 'connect', to: 'pages#connect'
+  post 'messages', to: 'messages#send_message'
 end

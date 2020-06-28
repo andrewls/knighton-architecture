@@ -1,7 +1,16 @@
-.navigation
-  = link_to root_path
-    = image_pack_tag('media/images/logo-horizontal.jpg', class: 'nav-logo')
-  .nav-links
-    = link_to 'TEAM', team_path, class: nav_link_class(team_path)
-    = link_to 'PROJECTS', projects_path, class: nav_link_class(projects_path)
-    = link_to 'CONNECT', connect_path, class: "connect #{nav_link_class(connect_path)}"
+.d-none.d-md-block
+  .navigation
+    = link_to root_path
+      = image_pack_tag('media/images/logo-horizontal.jpg', class: 'nav-logo')
+    .nav-links
+      = link_to 'TEAM', team_path, class: nav_link_class(team_path)
+      = link_to 'PROJECTS', projects_path, class: nav_link_class(projects_path)
+      = link_to 'CONNECT', connect_path, class: "connect #{nav_link_class(connect_path)}"
+.d-md-none
+  .nav-small
+    = link_to root_path
+      = image_pack_tag('media/images/logo-horizontal.jpg', class: 'nav-logo')
+    .nav-links
+      = link_to 'TEAM', team_path, class: nav_link_class(team_path)
+      = link_to 'PROJECTS', projects_path, class: nav_link_class(projects_path)
+      = link_to 'CONNECT', connect_path, class: "connect #{nav_link_class(connect_path)}"

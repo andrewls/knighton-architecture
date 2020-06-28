@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ReactRenderer from '../utilities/react-renderer';
 import PhotoResolver from 'components/PhotoResolver';
+import MobileDetector from 'utilities/mobile-detector';
 
 class CaptionedImage extends React.PureComponent {
   constructor(props) {
@@ -19,7 +20,7 @@ class CaptionedImage extends React.PureComponent {
     return (
       <div className='captioned-image-wrapper' onMouseEnter={this._hoverIn} onMouseLeave={this._hoverOut}>
         <img src={PhotoResolver.resolve(this.props.image)} />
-        <div className={this.state.active ? 'caption' : 'caption collapsed'}>
+        <div className={this.state.active || MobileDetector.isMobile() ? 'caption' : 'caption collapsed'}>
           <span>{this.props.left}</span>
           <span>{this.props.right}</span>
         </div>
