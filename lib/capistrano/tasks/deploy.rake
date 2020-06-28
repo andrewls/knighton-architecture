@@ -28,9 +28,16 @@ namespace :deploy do
     end
   end
 
+  task :copy_env do
+    on roles(:app) do
+      execute 'cp -f config/.env .env'
+    end
+  end
+
   before :starting,     :check_revision
   after  :finishing,    :compile_assets
   after  :finishing,    :cleanup
+  after :finishing,     :copy_env
   after  :finishing,    :restart
 end
 # rubocop:enable Metrics/BlockLength
