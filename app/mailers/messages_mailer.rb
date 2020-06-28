@@ -1,6 +1,6 @@
 class MessagesMailer < ApplicationMailer
   # TO_EMAIL = 'info@knightonarchitecture.com'
-  TO_EMAIL = 'andrew.stephenson123@gmail.com'
+  TO_EMAIL = 'info@knightonarchitecture.com'
   def connect(from, first_name, last_name, subject, message)
     @first_name = first_name
     @last_name = last_name
