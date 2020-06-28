@@ -5,6 +5,6 @@ class MessagesMailer < ApplicationMailer
     @first_name = first_name
     @last_name = last_name
     @message = message
-    mail(to: TO_EMAIL, from: from, subject: subject)
+    mail(to: TO_EMAIL, replay_to: from, from: 'info@knightonarchitecture.com', subject: subject)
   end
 end
