@@ -2,7 +2,7 @@ import lofts401 from './401-lofts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=40
 import bellCanyon from './bell-canyon-residence?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import bylund from './bylund-retail?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import chrysallis from './chrysallis-cc?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import creamery from './creamery?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import creamery from './creamery-1?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import dayRanch from './day-ranch?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import halvorsen from './halvorsen?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import interiorConcepts from './interio-interior-concepts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
