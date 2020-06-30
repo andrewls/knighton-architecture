@@ -43,7 +43,7 @@ class ProjectViewer extends React.PureComponent {
 
   _renderProject(project) {
     return (
-      <div className='captioned-image'>
+      <div className='captioned-image col-md-6'>
         <CaptionedImage
           key={project.id}
           image={project.image_path}
@@ -61,7 +61,7 @@ class ProjectViewer extends React.PureComponent {
         <div className='project-viewer-navigation'>
           { ['All', 'Commercial', 'Residential', 'Community'].map(c => this._renderTab(c)) }
         </div>
-        <div className='project-viewer-projects'>
+        <div className='project-viewer-projects row'>
           { this.state.projects.map(p => this._renderProject(p)) }
         </div>
       </div>

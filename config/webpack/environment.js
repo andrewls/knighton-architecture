@@ -24,4 +24,16 @@ environment.plugins.prepend('Provide',
     jQuery: 'jquery/src/jquery'
   })
 )
+
+const responsiveLoader = {
+  test: /\.(jpe?g|png)$/i,
+  loader: 'responsive-loader',
+  options: {
+    adapter: require('responsive-loader/sharp')
+  }
+};
+
+// Insert json loader at the end of list
+environment.loaders.prepend('responsiv-loader', responsiveLoader);
+
 module.exports = environment

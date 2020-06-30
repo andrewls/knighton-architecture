@@ -23,6 +23,9 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "jimp": "^0.14.0",
+    "responsive-loader": "^1.2.0",
+    "sharp": "^0.25.4",
     "webpack-dev-server": "^3.11.0"
   }
 }

@@ -17,9 +17,12 @@ class CaptionedImage extends React.PureComponent {
   }
 
   render() {
+    console.log("Rendering image", this.props.image, this.props.left, this.props.right);
+    const image = PhotoResolver.resolve(this.props.image);
+    console.log("Scaled image", image);
     return (
       <div className='captioned-image-wrapper' onMouseEnter={this._hoverIn} onMouseLeave={this._hoverOut}>
-        <img src={PhotoResolver.resolve(this.props.image)} />
+        <img src={image.src} srcSet={image.srcSet} />
         <div className={this.state.active || MobileDetector.isMobile() ? 'caption' : 'caption collapsed'}>
           <span>{this.props.left}</span>
           <span>{this.props.right}</span>
