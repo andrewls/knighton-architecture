@@ -1,22 +1,22 @@
-import lofts401 from './401 Lofts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import bellCanyon from './Bell Canyon Residence?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import bylund from './Bylund Retail?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import chrysallis from './Chrysallis Cedar City?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import creamery from './Creamery?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import dayRanch from './Day Ranch?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import halvorsen from './Halvorsen Candy Bomber Museum?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import interiorConcepts from './Interior Concepts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import livingWaters from './Living Waters Mennonite Church?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import madison from './Madison Building?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import marketplaceLiveWork from './Marketplace Live-Work?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import portersCrossing from './Porters Crossing?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import rodizioDP from './Rodizio at Dania Pointe?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import rodizioOrlando from './Rodizio at Orlando?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import rodizioRiverwoods from './Rodizio at Riverwoods?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import rodizioTS from './Rodizio Trolley Square?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import truckRanchAF from './Truck Ranch American Fork?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import westGardenTownhomes from './West Garden Townhomes?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import woodside from './Woodside Homes Day Ranch?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import lofts401 from './401-lofts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import bellCanyon from './bell-canyon-residence?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import bylund from './bylund-retail?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import chrysallis from './chrysallis-cc?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import creamery from './creamery?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import dayRanch from './day-ranch?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import halvorsen from './halvorsen?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import interiorConcepts from './interio-interior-concepts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import livingWaters from './living-waters?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import madison from './madison?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import marketplaceLiveWork from './marketplace-live-work?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import portersCrossing from './porters-crossing?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import rodizioDP from './rodizio-dania-pointe?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import rodizioOrlando from './rodizio-orlando?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import rodizioRiverwoods from './rodizio-riverwoods?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import rodizioTS from './rodizio-ts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import truckRanchAF from './truck-ranch-af?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import westGardenTownhomes from './west-garden-townhomes?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import woodside from './woodside-day-ranch?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 
 export default {
   '401 Lofts': lofts401,
