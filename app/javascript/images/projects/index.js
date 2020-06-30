@@ -5,7 +5,7 @@ import chrysallis from './chrysallis-cc?sizes[]=100&sizes[]=200&sizes[]=300&size
 import creamery from './creamery-1?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import dayRanch from './day-ranch?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import halvorsen from './halvorsen?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
-import interiorConcepts from './interio-interior-concepts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
+import interiorConcepts from './interior-concepts?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import livingWaters from './living-waters?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import madison from './madison?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
 import marketplaceLiveWork from './marketplace-live-work?sizes[]=100&sizes[]=200&sizes[]=300&sizes[]=400&sizes[]=500&sizes[]=600&sizes[]=700&sizes[]=800&sizes[]=900&sizes[]=1000&sizes[]=1100&sizes[]=1200';
