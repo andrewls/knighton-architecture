@@ -1,15 +1,22 @@
 Project.delete_all
 Project.create([
   {
+    name: '401 Lofts Mixed-Use',
+    location: 'Provo, UT',
+    status: 'To Be Constructed',
+    classification: 'Residential',
+    image_path: 'projects/401 Lofts'
+  },
+  {
     name: 'Bell Canyon Residence',
     location: 'Sandy, UT',
     status: 'To Be Constructed',
     classification: 'Residential',
     image_path: 'projects/Bell Canyon Residence'
   }, {
-    name: 'The Creamera | Dairy Farmers of America Concept Store',
+    name: 'The Creamery | DFA Concept Store',
     location: 'Beaver, UT',
-    status: 'Built in 2018 (Addition in Construction)',
+    status: 'Built 2018/Addition 2020',
     classification: 'Commercial',
     image_path: 'projects/Creamery'
   },
@@ -91,6 +98,13 @@ Project.create([
     image_path: 'projects/Rodizio at Orlando'
   },
   {
+    name: 'Rodizio Grill',
+    location: 'Dania Beach, FL',
+    status: 'Built in 2020',
+    classification: 'Commercial',
+    image_path: 'projects/Rodizio at Dania Pointe'
+  },
+  {
     name: 'Day Ranch Townhomes (Woodside Homes)',
     location: 'Draper, UT',
     status: 'In Construction',
@@ -103,5 +117,12 @@ Project.create([
     status: 'In Construction',
     classification: 'Commercial',
     image_path: 'projects/Truck Ranch American Fork'
+  },
+  {
+    name: 'Santaquin Retail Building',
+    location: 'Santaquin, UT',
+    status: 'To Be Constructed',
+    classification: 'Commercial',
+    image_path: 'projects/Santaquin Retail Building'
   }
 ])
