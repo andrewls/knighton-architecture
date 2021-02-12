@@ -2,7 +2,7 @@
   "name": "knighton_architecture",
   "private": true,
   "dependencies": {
-    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-react": "^7.9.4",    
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@rails/actioncable": "^6.0.0",

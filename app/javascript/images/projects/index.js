@@ -17,6 +17,8 @@ import rodizioTS from './rodizio-ts?sizes[]=50&sizes[]=100&sizes[]=150&sizes[]=2
 import santaquin from './santaquin-retail-building?sizes[]=50&sizes[]=100&sizes[]=150&sizes[]=200&sizes[]=250&sizes[]=300&sizes[]=350&sizes[]=400&sizes[]=500&sizes[]=550&sizes[]=600';
 import truckRanchAF from './truck-ranch?sizes[]=50&sizes[]=100&sizes[]=150&sizes[]=200&sizes[]=250&sizes[]=300&sizes[]=350&sizes[]=400&sizes[]=500&sizes[]=550&sizes[]=600';
 import westGardenTownhomes from './west-garden-townhomes?sizes[]=50&sizes[]=100&sizes[]=150&sizes[]=200&sizes[]=250&sizes[]=300&sizes[]=350&sizes[]=400&sizes[]=500&sizes[]=550&sizes[]=600';
+import shorelineTownhomes2Story from './shoreline-townhomes-2-story?sizes[]=50&sizes[]=100&sizes[]=150&sizes[]=200&sizes[]=250&sizes[]=300&sizes[]=350&sizes[]=400&sizes[]=500&sizes[]=550&sizes[]=600';
+import shorelineTownhomesUphill from './shoreline-townhomes-uphill??sizes[]=50&sizes[]=100&sizes[]=150&sizes[]=200&sizes[]=250&sizes[]=300&sizes[]=350&sizes[]=400&sizes[]=500&sizes[]=550&sizes[]=600';
 
 export default {
   '401 Lofts': lofts401,
@@ -36,6 +38,8 @@ export default {
   'Rodizio at Riverwoods': rodizioRiverwoods,
   'Rodizio Trolley Square': rodizioTS,
   'Santaquin Retail Building': santaquin,
+  'Shoreline Townhomes 2-Story': shorelineTownhomes2Story,
+  'Shoreline Townhomes Uphill': shorelineTownhomesUphill,
   'Truck Ranch American Fork': truckRanchAF,
   'West Garden Townhomes': westGardenTownhomes,
   'Woodside Homes Day Ranch': dayRanch
