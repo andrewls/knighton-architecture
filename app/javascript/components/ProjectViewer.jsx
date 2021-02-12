@@ -55,7 +55,6 @@ class ProjectViewer extends React.PureComponent {
   }
 
   render() {
-    console.log("Rendering project viewer");
     return (
       <div className='project-viewer'>
         <div className='project-viewer-navigation'>

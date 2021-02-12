@@ -13,7 +13,6 @@ class Gallery extends React.PureComponent {
         ...this.props.images
       )
     );
-    console.log("Photos", photos);
     return photos.map(p => ({ original: p }));
   }
 

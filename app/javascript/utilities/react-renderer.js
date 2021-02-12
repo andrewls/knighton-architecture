@@ -41,7 +41,6 @@ class ReactRenderer {
 
   static establishClassMapping(componentType, className) {
     registerPageLoadHandler(function renderElementsByClass() {
-      console.log("Page load handlerrunning");
       $(`.${className}`).each((index, element) => {
         new ReactRenderer(componentType).render(element);
       });
