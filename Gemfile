@@ -11,7 +11,7 @@ gem 'rubocop'
 gem 'rubocop-rails', require: false
 # Use sqlite3 as the database for Active Record
  # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'pg'
 
 gem 'dotenv-rails'
